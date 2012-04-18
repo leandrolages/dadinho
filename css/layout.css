@@ -1,0 +1,156 @@
+@CHARSET "UTF-8";
+
+body {
+	margin:0px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background-color: #efefef;
+}
+
+form input, form select, form button {
+	font-size:11px;
+	}
+
+#salas_abertas {
+   text-align: left;
+   }
+
+#salas_abertas li {
+   text-align: left;
+   font-size: 13px;
+   padding-bottom:10px;
+   }   
+
+#teclado {
+   padding: 20px;
+   }
+
+#game_board {
+   clear:both;
+   overflow:hidden; 
+   height:1%;
+   }
+
+#player_box {
+	width: 400px;
+	border: 0px solid #000;
+	clear:both;
+	display:block; 
+	float:left;
+	}
+	
+#player_waitbox {
+   border: 0px solid #000;
+   clear:both;
+   display:block; 
+   float:left;
+   }
+
+#game_board h4 {
+   background-color: #efefef;
+   margin-top:0px;
+   padding: 5px;
+   text-align: left;
+   }
+   
+#game_board p {
+   margin-top:0px;
+   text-align: left;
+   }
+
+#bet_box {
+   width: 350px;
+   display:block;
+   float: left;
+   border: 1px solid #000;
+   padding:0;
+   height:175px;
+   overflow:auto;
+   }
+   
+#history_box {
+   width: 350px;
+   display:block;
+   float: left;
+   border: 1px solid #000;
+   height:175px;
+   overflow:auto;
+   margin-top:10px;
+   }
+
+.headline {
+	background-color: #dedede;
+	padding:5px;
+	}
+.player_dices {
+   padding:5px;
+   }
+	
+.player_area {
+	width:175px;
+   border: 3px solid #fff;
+   display:block;
+   float:left;
+   margin: 3px;
+   }
+
+.me {
+   border: 3px solid green;
+   }
+
+.mytime {
+   border: 3px solid red;
+   }
+
+#teclado span {
+   width: 10px;
+   padding-left: 5px;
+   padding-right: 5px;
+   border: 1px solid blue;
+   cursor: pointer;
+   margin-left: 5px;
+   }
+   
+#teclado img {
+   cursor: pointer;
+   margin-left: 5px;
+   }
+
+#topo {
+	
+	width: 800px;
+	background-color:#fff;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-left: 5px solid #000;
+	border-right: 5px solid #000;
+	border-top: 5px solid #000;
+	border-bottom: 1px solid #000;
+	}
+	
+#corpo {
+   
+   width: 760px;
+   background-color:#fff;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   border-left: 5px solid #000;
+   border-right: 5px solid #000;
+   border-bottom: 1px solid #000;
+   padding: 20px;
+   }
+   
+#rodape {
+   
+   width: 760px;
+   background-color:#fff;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   border-left: 5px solid #000;
+   border-right: 5px solid #000;
+   border-bottom: 5px solid #000;
+   padding: 20px;
+   }

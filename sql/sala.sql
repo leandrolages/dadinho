@@ -1,0 +1,20 @@
+CREATE
+    TABLE sala
+    (
+        id_sala bigint unsigned NOT NULL AUTO_INCREMENT,
+        total TINYINT(1) unsigned DEFAULT '4' NOT NULL,
+        status TINYINT(1) unsigned DEFAULT '0' NOT NULL,
+        game text,
+        PRIMARY KEY (id_sala)
+    )
+    ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+ALTER TABLE
+    sala ADD (qtd_atual TINYINT UNSIGNED DEFAULT '0' NOT NULL);
+
+ALTER TABLE
+    sala MODIFY COLUMN total SMALLINT(1) UNSIGNED DEFAULT '4' NOT NULL;
+ALTER TABLE
+    sala MODIFY COLUMN status SMALLINT(1) UNSIGNED DEFAULT '0' NOT NULL;
+ALTER TABLE
+    sala MODIFY COLUMN qtd_atual SMALLINT(1) UNSIGNED DEFAULT '0' NOT NULL;
